@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.kotak{
+    border: solid;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+/* Global styles */
+div {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.warna{
+  background-color: aquamarine;
+}
+.warna:hover{
+  background-color: antiquewhite;
+  color : aquamarine;
+}
+
+.image-box{
+  height: 250px;
+}
+
+.image-box img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Footer Section */
+footer {
+    position: Fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 23px;
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+.banner{
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../assets/img/banners.jpeg');
+}
+
+.banner-produk{
+  height: 30vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../assets/img/banners.jpeg');
+}
+
+.highlighted-kategori{
+  height: 250px;
+}
+
+.kategori-nasi{
+  border-radius: 10px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../assets/img/nasi_goreng2.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-sotosup{
+  border-radius: 10px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../assets/img/soto.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-padang{
+  border-radius: 10px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../assets/img/padang.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-betawi{
+  border-radius: 10px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../assets/img/betawi.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.kategori-jawa{
+  border-radius: 10px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../assets/img/jawa.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.kategori-bali{
+  border-radius: 10px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url('../assets/img/bali.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.no-decoration{
+  text-decoration: none;
+  color: white;
+}
+.no-decoration:hover{
+  text-decoration: none;
+  color: aquamarine;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    width: 600px;
+}
+
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.recipe-list {
+    list-style: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    margin-bottom: 10px;
+}
+
+.recipe-list li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+

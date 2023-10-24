@@ -1,0 +1,260 @@
+/* Global styles */
+div {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    margin: 0 auto;
+    flex: 0;
+}
+
+/* Navigation */
+.navbar {
+  position: fixed; /* Add this line to make the navbar fixed */
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(3, 188, 111, 0.586);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  width: 100%;
+  z-index: 999; /* Add this line to ensure the navbar stays on top of other elements */
+}
+
+/* Rest of the CSS code remains the same */
+
+
+
+
+.nav-logo img {
+    height: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    padding: 0;
+    justify-content: flex-end;
+    color: #00c2fd;
+}
+
+.nav-menu li {
+    margin-right: 30px;
+}
+
+.nav-menu li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu a {
+    color: #FFFFCE;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.nav-menu a:hover{
+    color: #7b7b7b;
+}
+
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  justify-content: flex-start; /* Align items to the top */
+  background-image: url("assets/img/warehouse.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 100%;
+  padding-left: 10%; /* Add some left padding to move the text to the left */
+  padding-top: 5%; /* Add some top padding to move the text higher */
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: #eeba7f;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 0.001rem;
+}
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff9100;
+    color: #FFFFCE;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #846727;
+    color: #FFFFCE;
+  }
+  
+  /* About Section */
+  .about-section {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+    font-size: 1.5rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+  }
+  
+  .about-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: none;
+    margin-top: 3rem;
+  }
+  
+  .about-item {
+    width: 1080px;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .about-item i {
+    font-size: 3rem;
+    color: #FFB900;
+    margin-bottom: 1rem;
+  }
+  
+  .about-item h2 {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .about-item p {
+    font-size: 1.5rem;
+    color: #666;
+    text-align: justify;
+    margin: flex;
+  }
+  
+/* Contact Section */
+.contact-section {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0.5em 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4rem;
+  
+}
+
+.contact-section p {
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+  /* Align text to both margins */
+  text-align: justify;
+}
+
+
+.contact-section ul {
+  list-style: none;
+  margin-top: 3rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-section li {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 1rem;
+  justify-content: right;
+}
+
+.contact-section li i {
+  font-size: 2rem;
+  margin-right: 2rem;
+  color: #333;
+}
+
+.contact-section li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact-section li a:hover {
+  color: #FFB900;
+}
+
+  
+/* Footer Section */
+footer {
+    position: Fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 23px;
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
